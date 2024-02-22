@@ -54,4 +54,4 @@ class QueryStringVariablesParser {
 
 // TESTING CASES
 const urlParser = new UrlParser('/:version/api/:collection/:id');
-urlParser.parseVariables('/2/api/sarasa/4?test=abc&test2=xyz');
+console.log(urlParser.parseVariables('/2/api/sarasa/4?test=abc&test2=xyz'));
